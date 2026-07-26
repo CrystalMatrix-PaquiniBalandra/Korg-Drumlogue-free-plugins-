@@ -13,11 +13,13 @@ Si estás interesado en desarrollar sintetizadores y efectos para Korg Drumlogue
  
  
 1. **Pure Data**
+https://libros.catedu.es/books/arduino-y-pure-data-ondas-color-y-sonido/page/instalar-pd?utm_source=chatgpt.com
  
-2. **PlugData**
+3. **PlugData**
+https://plugdata.org/download?utm_source=chatgpt.com
  
-3. **heavy.lib** (Wasted Audio)
- 
+5. **heavy.lib** (Wasted Audio)
+https://awesome.ecosyste.ms/projects/github.com%2FWasted-Audio%2Fheavylib?utm_source=chatgpt.com
 
  
 Los plugins incluidos en este repositorio han sido desarrollados por Francisco Javier Balandra Sánchez (CrystalMatrix),, productor e ingeniero con publicaciones en los sellos británicos legendarios como son EML Recordings y Lazzey Recordings. Cada plugin ha sido sometido a pruebas exhaustivas de estabilidad y rendimiento en CrystalMatrix Studio. 
