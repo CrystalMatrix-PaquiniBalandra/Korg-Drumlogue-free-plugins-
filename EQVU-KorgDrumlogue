@@ -1,5 +1,6 @@
 # EQVU — REVERB AND DELAY FX Component for Korg drumlogue.
 
+
 EQVU/. - Es una emulación en formato (`.drmlgunit`) diseñada específicamente para la caja de ritmos Korg drumlogue. Este módulo realiza una
 emula digitalmente las curvas musicales, por tanto el comportamiento y el flujo de trabajo del ecualizador analógico SSL UltraViolet.
 
