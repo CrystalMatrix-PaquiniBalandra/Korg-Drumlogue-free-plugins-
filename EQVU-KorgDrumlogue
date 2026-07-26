@@ -1,0 +1,64 @@
+# EQVU — REVERB AND DELAY FX Component for Korg drumlogue.
+
+EQVU/. - Es una emulación en formato (`.drmlgunit`) diseñada específicamente para la caja de ritmos Korg drumlogue. Este módulo realiza una
+emula digitalmente las curvas musicales, por tanto el comportamiento y el flujo de trabajo del ecualizador analógico SSL UltraViolet.
+
+Al cargarse directamente en la etapa final de mezcla del hardware, proporciona un modelado armónico ideal para esculpir la pegada, aire y 
+presencia de las secuencias de batería en formato compacto.
+
+
+ ⚠️ Legal Disclaimer / Descargo Legal
+
+Información de Marca Registrada Solid State Logic, SSL y UltraViolet son marcas comerciales registradas de Solid State Logic. Este software es 
+un desarrollo independiente de código abierto, creado con fines de emulación digital basándose en curvas acústicas analógicas de dominio público. 
+Este proyecto no está afiliado, respaldado, patrocinado, ni certificado oficialmente por Solid State Logic.
+
+## ✨ Características Principales
+
+A) Modelado Dual-Band. - Recreación de las bandas de estantería (Shelving) alta y baja del circuito clásico.
+b) Modo Focus. - Réplica digital de la función interactiva original; al activarse, estrecha el factor Q (ancho de banda) y aumenta el rango de ganancia para ecualizaciones quirúrgicas.
+* **Ganancia de Salida (Trie)**: Control integrado para atenuar o compensar el volumen post-EQ evitando la saturación interna.
+* **Optimizado para Pantalla OLED**: Controles compactos mapeados de forma limpia para los potenciómetros del drumlogue.
+
+🎛️ Parámetros Mapeados (OLED UI)
+
+| Parámetro | Rango | Descripción 
+I. - INPUT GAIN | ±12dB| Ganancia de entrada.
+II. - LF FRQ | 30Hz - 90Hz.  | Parámetro de frecuencia para la banda grave. 
+II. - LF GAN | ±9 dB  | Control de ganancia para graves. 
+III. - LF Q  | 0.1 - 0.707 | Control de resonancia para graves.
+
+IV. - LMF FRQ  | 100Hz - 1100Hz | Parámetro de frecuencia para la banda media grave.
+V. - LMF GAIN |  ±18 dB  | Control de ganancia para la banda media grave.
+VI. - LMF Q |  0.707 - 13  | Control de resonancia para la banda media grave.
+VII. - LMF Q2 |  0.107- 2.507 | Control de resonancia para la banda media grave.
+
+VIII. - HMF FRQ |  400Hz- 9000Hz | Parámetro de frecuencia para la banda media aguda.
+XI. - HMF GAIN |  ±18 dB  | Control de ganancia para la banda media aguda.
+X. - HMF Q |  0.707 - 13  | Control de resonancia para la banda media aguda.
+XI. - HMF Q2 |  0.107- 2.507 | Control de resonancia para la banda media aguda.
+
+XII. - HF GAIN |  ±9 dB  | Control de ganancia para la banda aguda.
+XIII. - HF Q |  0.1 - 0.707  | Control de resonancia para la banda aguda.
+XIV.  - DRY GAIN | 10dB| Ganancia Dry.
+XV. - WET GAIN | 10dB| Ganancia WET.
+XVI. - OUTPUT GAIN | ±12dB| Ganancia de salida.
+
+## 💾 Instalación
+
+Para cargar el plugin EQVU, en tu dispositivo Korg Drumlogue, el archivo SDKLOGUE es necesario seguir las siguientes instrucciones:
+
+1. Apaga el Korg Drumlogue, con el botón de apagado.
+2. Mantén presionados ambos botones RECORD y botón de encendido y apagado, espera mientras enciende el dispositivo cinco segundos.
+3. Conéctalo el Korg Drumlogue a tu ordenador mediante un cable USB. Aparecerá un almacenamiento masivo en drumlogue y en la pantalla 
+aparecera el icono de disco duro de drumlogue en el escritorio e tu ordenador. 
+4. Copia el archivo compilado `eqvu.drmlgunit` dentro del directorio Units/DelayFXs/
+5. Expulsa la unidad de tu ordenador con seguridad.
+6. Presiona el botón PLAY en Drumlogue se reiniciara e inicializara el nuevo ecualizador.
+
+## 🛠️ Desarrollo y Compilación
+
+Este plugin fue construido usando las librerías nativas de logue SDK de KORG (https://korginc.github.io/logue-sdk/). 
+
+## 📄 Licencia
+Este proyecto se distribuye bajo la licencia MIT. Siéntete libre de modificarlo o expandir su código. 
