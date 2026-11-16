@@ -1,0 +1,18 @@
+## 🎛️ Monopolic v1.0.0 (Lanzamiento Inicial)
+**Por CrystalMatrix (aka Paquini Balandra)**
+
+**Monopolic** es un sintetizador de usuario gratuito para el **Korg drumlogue**, inspirado en la clásica arquitectura de 4 osciladores del legendario **Korg Mono/Poly (1981)**. Desarrollado con **Plugdata**, **Heavylib** y compilado mediante **hvcc**.
+
+### ✨ Qué incluye
+* **4 Osciladores Independientes (`OSC 1` – `OSC 4`):** Formas de onda con anti-aliasing (Off, Senoidal, Triangular, Sierra y Pulso), afinación de ±3 octavas y ligeras desafinaciones analógicas internas.
+* **Motor FM y PWM:** Oscilador modulador dedicado y modulación por ancho de pulso ajustable en tiempo real.
+* **Filtro Paso Bajo Resonante:** Doble etapa de filtros `vcf~` en serie con envolvente dedicada (`F.ENV`).
+* **Matriz Macro Inteligente (`MACROSEL`):** Controla 22 niveles internos y envíos de modulación desde una única perilla maestra.
+
+### 📥 Instalación Rápida
+1. Descarga el archivo **`monopolic.drmlgunit`** adjunto aquí abajo en la sección **Assets**.
+2. Enciende tu Korg drumlogue en **Modo Almacenamiento USB** (mantén presionado **[PLAY]** mientras lo enciendes).
+3. Copia `monopolic.drmlgunit` dentro de la carpeta `/Units/Synths/`.
+4. Expulsa la unidad de forma segura, reinicia tu drumlogue y carga **Monopolic** en la pista **USER**.
+
+📖 *Guía completa de parámetros y documentación disponible en el [README](../../blob/main/README.es.md).*
